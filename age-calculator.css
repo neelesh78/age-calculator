@@ -1,0 +1,100 @@
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* Resetting default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Styling the body with a vibrant gradient background */
+body {
+  background: linear-gradient(135deg, #74ABE2, #5563DE);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Styling the main container with a subtle shadow and soft white background */
+.age-container {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Styling the header with gradient text */
+.age-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.age-header {
+  font-size: 1.8rem;
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Styling the input section */
+.age-input {
+  margin-bottom: 1.5rem;
+}
+
+.age-input label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555555;
+}
+
+.age-dob-input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 3.5px solid #e52e71;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.age-dob-input:focus {
+  border-color: #ff8a00;
+  outline: none;
+}
+
+/* Styling the button with vibrant colors and smooth hover effect */
+.age-button {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.calculate-btn {
+  background-color: #ff8a00;
+  color: #ffffff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.calculate-btn:hover {
+  background-color: #e52e71;
+  transform: scale(1.05);
+}
+
+/* Styling the result display with a complementary color */
+.age-result {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333333;
+  padding: 0.5rem;
+  background-color: #fff0f5;
+  border-radius: 8px;
+  font-weight: 500;
+}
